@@ -1,0 +1,124 @@
+/* pages/LobbyPage.css */
+
+.lobby-page {
+  padding: 48px 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.lobby-hero {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.lobby-title {
+  font-size: 46px;
+  font-weight: 900;
+  color: var(--text);
+  margin-bottom: 14px;
+  letter-spacing: -1.5px;
+  line-height: 1.1;
+}
+
+.lobby-title-accent {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.lobby-subtitle {
+  font-size: 17px;
+  color: var(--text2);
+  max-width: 540px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Two-column card grid */
+.lobby-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.lobby-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: 32px 28px;
+  transition: border-color 0.2s;
+}
+
+.lobby-card:hover { border-color: var(--border2); }
+
+.lobby-card-icon {
+  font-size: 36px;
+  margin-bottom: 14px;
+}
+
+.lobby-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.lobby-card-desc {
+  font-size: 14px;
+  color: var(--text2);
+  line-height: 1.5;
+}
+
+.lobby-error {
+  text-align: center;
+  color: #f87171;
+  background: rgba(240, 70, 70, 0.1);
+  border: 1px solid rgba(240, 70, 70, 0.25);
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+/* Feature chips */
+.lobby-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+  margin-top: 32px;
+}
+
+.feature-chip {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px 18px;
+  transition: border-color 0.2s;
+}
+
+.feature-chip:hover { border-color: var(--border2); }
+.feature-chip-icon { font-size: 22px; flex-shrink: 0; margin-top: 1px; }
+
+.feature-chip-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 3px;
+}
+
+.feature-chip-desc {
+  font-size: 12px;
+  color: var(--text3);
+  line-height: 1.4;
+}
+
+@media (max-width: 700px) {
+  .lobby-page { padding: 28px 16px; }
+  .lobby-title { font-size: 30px; }
+  .lobby-cards { grid-template-columns: 1fr; }
+}

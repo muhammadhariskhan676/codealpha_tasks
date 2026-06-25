@@ -1,0 +1,112 @@
+/* components/Video/Controls.css */
+
+.controls-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  flex-shrink: 0;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.controls-left,
+.controls-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.controls-center {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Room ID chip */
+.room-id-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 6px 14px;
+  cursor: pointer;
+  transition: var(--transition);
+  user-select: none;
+}
+
+.room-id-chip:hover { border-color: var(--primary); }
+
+.room-id-label {
+  font-size: 11px;
+  color: var(--text3);
+  font-weight: 600;
+}
+
+.room-id-value {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--primary);
+  font-family: monospace;
+  letter-spacing: 0.5px;
+}
+
+.room-id-copy { font-size: 13px; }
+
+/* Control buttons */
+.ctrl-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  color: var(--text);
+  min-width: 78px;
+  transition: var(--transition);
+}
+
+.ctrl-btn:hover {
+  background: var(--border);
+  border-color: var(--border2);
+}
+
+.ctrl-btn--off {
+  background: rgba(240, 70, 70, 0.12);
+  border-color: rgba(240, 70, 70, 0.4);
+  color: #f87171;
+}
+
+.ctrl-btn--active {
+  background: rgba(91, 110, 245, 0.15);
+  border-color: var(--primary);
+  color: #818cf8;
+}
+
+.ctrl-btn--leave {
+  background: var(--danger);
+  border-color: var(--danger);
+  color: white;
+}
+
+.ctrl-btn--leave:hover {
+  background: var(--danger-dark);
+  border-color: var(--danger-dark);
+}
+
+.ctrl-icon { font-size: 20px; line-height: 1; }
+.ctrl-label { font-size: 11px; font-weight: 600; }
+
+@media (max-width: 640px) {
+  .controls-left { display: none; }
+  .ctrl-label { display: none; }
+  .ctrl-btn { min-width: unset; padding: 10px 12px; }
+}

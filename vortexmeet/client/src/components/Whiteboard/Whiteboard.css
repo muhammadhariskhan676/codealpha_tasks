@@ -1,0 +1,134 @@
+/* components/Whiteboard/Whiteboard.css */
+
+.wb-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 8, 20, 0.88);
+  backdrop-filter: blur(6px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.wb-container {
+  width: 100%;
+  max-width: 1200px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-lg);
+}
+
+.wb-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border);
+  background: var(--card);
+}
+
+.wb-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.wb-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wb-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg2);
+  flex-wrap: wrap;
+}
+
+.wb-tool-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 14px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text2);
+  font-size: 13px;
+  font-weight: 600;
+  transition: var(--transition);
+  font-family: 'DM Sans', sans-serif;
+}
+
+.wb-tool-btn:hover { color: var(--text); background: var(--border); }
+
+.wb-tool-btn.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: white;
+}
+
+.wb-sep {
+  width: 1px;
+  height: 28px;
+  background: var(--border);
+  margin: 0 4px;
+}
+
+/* Color swatches */
+.wb-colors {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.wb-color-swatch {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: var(--transition);
+  flex-shrink: 0;
+}
+
+.wb-color-swatch:hover { transform: scale(1.2); }
+.wb-color-swatch.selected { border-color: white; transform: scale(1.25); box-shadow: 0 0 6px rgba(255,255,255,0.4); }
+
+/* Brush size */
+.wb-size-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.wb-size-label {
+  font-size: 12px;
+  color: var(--text2);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.wb-size-slider {
+  width: 90px;
+  accent-color: var(--primary);
+}
+
+/* Canvas */
+.wb-canvas {
+  width: 100%;
+  display: block;
+  cursor: crosshair;
+  max-height: 65vh;
+  touch-action: none;
+}

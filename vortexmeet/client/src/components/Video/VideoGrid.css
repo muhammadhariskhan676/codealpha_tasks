@@ -1,0 +1,15 @@
+/* components/Video/VideoGrid.css */
+
+.video-grid {
+  flex: 1;
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  overflow-y: auto;
+  align-content: start;
+  min-height: 0;
+}
+
+@media (max-width: 600px) {
+  .video-grid { grid-template-columns: 1fr !important; }
+}
