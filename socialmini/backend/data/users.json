@@ -1,0 +1,62 @@
+[
+  {
+    "id": "db382b23-b1ce-4aac-b015-58bc3df49491",
+    "username": "haris",
+    "email": "haris@demo.com",
+    "passwordHash": "$2b$10$EefvEqLAqcsYnfSL/BRYPOFaS/35Y1bDmpFiTnMFr/aAt3rOFkAk.",
+    "displayName": "Haris Khan",
+    "bio": "CS student 🎓 | Java & AI enthusiast | Mianwali",
+    "avatar": "https://api.dicebear.com/7.x/thumbs/svg?seed=haris&backgroundColor=1a1a2e",
+    "createdAt": "2026-05-26T02:37:34.301Z"
+  },
+  {
+    "id": "d2d38818-4867-4263-88f8-177730516d9c",
+    "username": "ayesha",
+    "email": "ayesha@demo.com",
+    "passwordHash": "$2b$10$EefvEqLAqcsYnfSL/BRYPOFaS/35Y1bDmpFiTnMFr/aAt3rOFkAk.",
+    "displayName": "Ayesha Khan",
+    "bio": "Designer & developer ✨ | Coffee lover ☕",
+    "avatar": "https://api.dicebear.com/7.x/thumbs/svg?seed=ayesha&backgroundColor=1a1a2e",
+    "createdAt": "2026-05-26T02:37:34.304Z"
+  },
+  {
+    "id": "7e364aa1-cdb7-4520-ae53-2d21d6594f60",
+    "username": "omar",
+    "email": "omar@demo.com",
+    "passwordHash": "$2b$10$EefvEqLAqcsYnfSL/BRYPOFaS/35Y1bDmpFiTnMFr/aAt3rOFkAk.",
+    "displayName": "Omar Farooq",
+    "bio": "Backend dev 🛠 | Django | Express | Open source",
+    "avatar": "https://api.dicebear.com/7.x/thumbs/svg?seed=omar&backgroundColor=1a1a2e",
+    "createdAt": "2026-05-26T02:37:34.306Z"
+  },
+  {
+    "id": "0a18fbcd-3d54-4442-ae1a-a46088277175",
+    "username": "sara",
+    "email": "sara@demo.com",
+    "passwordHash": "$2b$10$EefvEqLAqcsYnfSL/BRYPOFaS/35Y1bDmpFiTnMFr/aAt3rOFkAk.",
+    "displayName": "Sara Malik",
+    "bio": "ML researcher 🤖 | Data is the new oil",
+    "avatar": "https://api.dicebear.com/7.x/thumbs/svg?seed=sara&backgroundColor=1a1a2e",
+    "createdAt": "2026-05-26T02:37:34.307Z"
+  },
+  {
+    "id": "65ed22da-9b11-426c-8106-ff056d983e71",
+    "username": "bilal",
+    "email": "bilal@demo.com",
+    "passwordHash": "$2b$10$EefvEqLAqcsYnfSL/BRYPOFaS/35Y1bDmpFiTnMFr/aAt3rOFkAk.",
+    "displayName": "Bilal Ahmed",
+    "bio": "Full-stack wizard 🧙 | React + Node.js",
+    "avatar": "https://api.dicebear.com/7.x/thumbs/svg?seed=bilal&backgroundColor=1a1a2e",
+    "createdAt": "2026-05-26T02:37:34.309Z"
+  },
+  {
+    "id": "a23ac52c-084c-49e9-8937-217e6ccfbf0c",
+    "username": "haris123",
+    "email": "muhammadhariskhan676@gmail.com",
+    "passwordHash": "$2b$10$04y3F5isvDjS0cvKuBdDzeGKSXlxpgapg/l599HrWl3auS08PC5NO",
+    "displayName": "Haris Khan",
+    "bio": "I am Software Engineer in University of Mianwali in 6th Semester",
+    "avatar": "https://api.dicebear.com/7.x/thumbs/svg?seed=haris123",
+    "createdAt": "2026-05-26T02:40:58.715Z"
+  }
+]

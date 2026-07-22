@@ -1,0 +1,79 @@
+[
+  {
+    "id": "734b30ea-0f6d-450f-81a8-066c071dc591",
+    "authorId": "db382b23-b1ce-4aac-b015-58bc3df49491",
+    "content": "Tomorow Eid-ul-Aza Inshallah",
+    "image": null,
+    "createdAt": "2026-05-26T02:43:32.208Z"
+  },
+  {
+    "id": "20159174-1d9b-4e5a-9c1f-a8992115c745",
+    "authorId": "65ed22da-9b11-426c-8106-ff056d983e71",
+    "content": "SocialMini is live! Built with Express.js + vanilla JS. No frameworks, no build step, just clean code. Sometimes simple is best 🏗",
+    "image": null,
+    "createdAt": "2026-05-26T01:37:34.347Z"
+  },
+  {
+    "id": "b7af5354-eb26-4805-8f2c-a240f7c73fcf",
+    "authorId": "0a18fbcd-3d54-4442-ae1a-a46088277175",
+    "content": "If you're studying ML, please learn the linear algebra first. Matrices aren't scary — they're just a way to think about transformations in space.",
+    "image": null,
+    "createdAt": "2026-05-26T00:37:34.345Z"
+  },
+  {
+    "id": "3f58fbbf-5d68-40d1-876d-d0deed4eede3",
+    "authorId": "7e364aa1-cdb7-4520-ae53-2d21d6594f60",
+    "content": "Just deployed my first solo project to production. Three weeks of evenings and weekends. That first 200 OK in prod hits different 🚀",
+    "image": null,
+    "createdAt": "2026-05-25T23:37:34.344Z"
+  },
+  {
+    "id": "83543d8c-321a-49f1-b547-f02e6ea1ab56",
+    "authorId": "d2d38818-4867-4263-88f8-177730516d9c",
+    "content": "Hot take: The best code is the code you delete. Every line you write is a liability. Solve the problem with the least possible surface area.",
+    "image": null,
+    "createdAt": "2026-05-25T22:37:34.342Z"
+  },
+  {
+    "id": "8e6b3f0f-b6f8-433d-b5ee-a5a125204cc7",
+    "authorId": "db382b23-b1ce-4aac-b015-58bc3df49491",
+    "content": "Prize bond results are in! Checking my numbers now... 🤞 Anyone else collect prize bonds? Old school but I find them fun.",
+    "image": null,
+    "createdAt": "2026-05-25T21:37:34.340Z"
+  },
+  {
+    "id": "442107f1-4772-4849-a967-660004f4303c",
+    "authorId": "65ed22da-9b11-426c-8106-ff056d983e71",
+    "content": "React tip: Stop using useEffect for derived state. Just compute it during render. Your code will be cleaner and you'll avoid a whole class of bugs 🪲",
+    "image": null,
+    "createdAt": "2026-05-25T20:37:34.338Z"
+  },
+  {
+    "id": "da7a9004-7aed-4654-8298-97fe5b60363c",
+    "authorId": "0a18fbcd-3d54-4442-ae1a-a46088277175",
+    "content": "Reading about transformer architectures again. Self-attention is genuinely one of the most elegant ideas in modern ML. The math is beautiful. 📊",
+    "image": null,
+    "createdAt": "2026-05-25T19:37:34.337Z"
+  },
+  {
+    "id": "dbc61255-2ab0-4ec3-900c-dbd077aee775",
+    "authorId": "7e364aa1-cdb7-4520-ae53-2d21d6594f60",
+    "content": "Tip of the day: In Express.js, always use try/catch inside async route handlers and pass errors to next(err) for centralized error handling. 🛠",
+    "image": null,
+    "createdAt": "2026-05-25T18:37:34.336Z"
+  },
+  {
+    "id": "c8c1067c-dd0f-48b0-bd78-dcab733cef55",
+    "authorId": "d2d38818-4867-4263-88f8-177730516d9c",
+    "content": "Working on a new design system for SocialMini. Dark mode, clean typography, consistent spacing. Design is about solving problems elegantly ✨",
+    "image": null,
+    "createdAt": "2026-05-25T17:37:34.334Z"
+  },
+  {
+    "id": "ba90a59d-c273-4c28-ace5-a79729191152",
+    "authorId": "db382b23-b1ce-4aac-b015-58bc3df49491",
+    "content": "Just finished my AI assignment using BFS and DFS search algorithms. Mind-blowing how elegant graph traversal can be! 🧠 #AI #CS",
+    "image": null,
+    "createdAt": "2026-05-25T16:37:34.332Z"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "followerId": "db382b23-b1ce-4aac-b015-58bc3df49491",
+    "followingId": "d2d38818-4867-4263-88f8-177730516d9c"
+  },
+  {
+    "followerId": "db382b23-b1ce-4aac-b015-58bc3df49491",
+    "followingId": "7e364aa1-cdb7-4520-ae53-2d21d6594f60"
+  },
+  {
+    "followerId": "db382b23-b1ce-4aac-b015-58bc3df49491",
+    "followingId": "0a18fbcd-3d54-4442-ae1a-a46088277175"
+  },
+  {
+    "followerId": "d2d38818-4867-4263-88f8-177730516d9c",
+    "followingId": "db382b23-b1ce-4aac-b015-58bc3df49491"
+  },
+  {
+    "followerId": "d2d38818-4867-4263-88f8-177730516d9c",
+    "followingId": "7e364aa1-cdb7-4520-ae53-2d21d6594f60"
+  },
+  {
+    "followerId": "7e364aa1-cdb7-4520-ae53-2d21d6594f60",
+    "followingId": "db382b23-b1ce-4aac-b015-58bc3df49491"
+  },
+  {
+    "followerId": "7e364aa1-cdb7-4520-ae53-2d21d6594f60",
+    "followingId": "0a18fbcd-3d54-4442-ae1a-a46088277175"
+  },
+  {
+    "followerId": "0a18fbcd-3d54-4442-ae1a-a46088277175",
+    "followingId": "db382b23-b1ce-4aac-b015-58bc3df49491"
+  },
+  {
+    "followerId": "0a18fbcd-3d54-4442-ae1a-a46088277175",
+    "followingId": "65ed22da-9b11-426c-8106-ff056d983e71"
+  },
+  {
+    "followerId": "65ed22da-9b11-426c-8106-ff056d983e71",
+    "followingId": "db382b23-b1ce-4aac-b015-58bc3df49491"
+  },
+  {
+    "followerId": "65ed22da-9b11-426c-8106-ff056d983e71",
+    "followingId": "d2d38818-4867-4263-88f8-177730516d9c"
+  },
+  {
+    "followerId": "a23ac52c-084c-49e9-8937-217e6ccfbf0c",
+    "followingId": "d2d38818-4867-4263-88f8-177730516d9c"
+  },
+  {
+    "followerId": "a23ac52c-084c-49e9-8937-217e6ccfbf0c",
+    "followingId": "0a18fbcd-3d54-4442-ae1a-a46088277175"
+  },
+  {
+    "followerId": "a23ac52c-084c-49e9-8937-217e6ccfbf0c",
+    "followingId": "7e364aa1-cdb7-4520-ae53-2d21d6594f60"
+  },
+  {
+    "followerId": "a23ac52c-084c-49e9-8937-217e6ccfbf0c",
+    "followingId": "db382b23-b1ce-4aac-b015-58bc3df49491"
+  },
+  {
+    "followerId": "a23ac52c-084c-49e9-8937-217e6ccfbf0c",
+    "followingId": "65ed22da-9b11-426c-8106-ff056d983e71"
+  },
+  {
+    "followerId": "db382b23-b1ce-4aac-b015-58bc3df49491",
+    "followingId": "a23ac52c-084c-49e9-8937-217e6ccfbf0c"
+  }
+]

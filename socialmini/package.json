@@ -1,0 +1,11 @@
+{
+  "name": "socialmini",
+  "version": "1.0.0",
+  "description": "Mini social media platform — Express.js + Vanilla JS",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js",
+    "seed": "node backend/seed.js"
+  },
+  "dependencies": {}
+}
