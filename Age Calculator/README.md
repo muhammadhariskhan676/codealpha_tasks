@@ -56,7 +56,7 @@ https://haris786-age-calculator.vercel.app/
 
 ## Screenshots
 
-Screenshots.png
+image.png
 
 
 ## Author
